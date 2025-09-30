@@ -9,6 +9,6 @@ public class Musica extends Midia {
     // Aqui podemos sobrescrever métodos se quisermos comportamento específico
     @Override
     public String toString() {
-        return "Música: " + super.toString();
+        return "Musica: " + super.toString();
     }
 }

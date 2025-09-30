@@ -1,12 +1,12 @@
 package com.minispotify.model;
 
 public enum Genero {
-    ROCK,
-    POP,
+    SOFRENCIA,
+    PAGODE,
     MPB,
     JAZZ,
-    CLASSICA,
+    FORRO,
     FUNK,
-    RAP,
+    RAPPER,
     SERTANEJO
 }

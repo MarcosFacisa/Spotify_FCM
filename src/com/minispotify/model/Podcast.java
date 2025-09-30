@@ -14,6 +14,6 @@ public class Podcast extends Midia {
 
     @Override
     public String toString() {
-        return super.toString() + " | Episódios: " + episodios;
+        return super.toString() + " | Episodios: " + episodios;
     }
 }

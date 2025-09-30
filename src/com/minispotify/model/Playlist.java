@@ -28,13 +28,13 @@ public class Playlist {
 
     public void adicionarMidia(Midia midia) throws MidiaDuplicadaException {
         if (!midias.add(midia)) {
-            throw new MidiaDuplicadaException("Mídia já existe na playlist!");
+            throw new MidiaDuplicadaException("Midia já existe na playlist!");
         }
     }
 
     public void removerMidia(Midia midia) throws MidiaNaoEncontradaExcepition {
         if (!midias.remove(midia)) {
-            throw new MidiaNaoEncontradaExcepition("Mídia não encontrada na playlist!");
+            throw new MidiaNaoEncontradaExcepition("Midia não encontrada na playlist!");
         }
     }
 
@@ -61,7 +61,7 @@ public class Playlist {
             }
         }
         if (!encontrou) {
-            System.out.println("Nenhuma mídia favorita na playlist.");
+            System.out.println("Nenhuma midia favorita na playlist.");
         }
     }
 
